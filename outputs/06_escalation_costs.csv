@@ -1,0 +1,4 @@
+dept,step1_reallocate_within_dept,step2_cross_train,step3_ot_premium_per_head,step3_ot_cost_per_head,step4_accept_risk_median_p_loss_per_head_short,step4_accept_risk_p90_loss
+FE,"move a head between shifts of the same day: $0 (same rate), limited by availability",pull a cross-trained partner head: $0 premium; partner loses the P(meet) shown in 06_playbook_blocks,35.52261904761905,146.54500000000002,0.1065998097584206,0.22200858441011748
+Merch,"move a head between shifts of the same day: $0 (same rate), limited by availability",pull a cross-trained partner head: $0 premium; partner loses the P(meet) shown in 06_playbook_blocks,52.679523809523786,217.3366666666667,0.1281287221307436,0.27505918837418675
+Pharm,"move a head between shifts of the same day: $0 (same rate), limited by availability",not available (licensure),58.02666666666666,239.36000000000004,0.572467160871808,0.9271855127822191

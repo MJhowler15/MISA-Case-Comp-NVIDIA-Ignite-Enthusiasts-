@@ -1,0 +1,7 @@
+dept,utilization_basis,rmse_log
+FE,utilization,0.18207691436913206
+FE,sched_utilization,0.27805341420537016
+Merch,utilization,0.22416231489131574
+Merch,sched_utilization,0.31826776664242995
+Pharm,utilization,0.18142916628866268
+Pharm,sched_utilization,0.2874951119077952

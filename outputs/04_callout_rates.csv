@@ -1,0 +1,18 @@
+dept_id,cat,scheduled,callouts,backfills,blocks,rate,backfill_share,se_rate,dept,source
+38,post_holiday,336,27,15.0,18.0,0.08035714285714286,0.5555555555555556,0.014830377492644752,FE,history excl. W2 flu cluster Jan 22-28
+38,weekday,3912,195,90.0,228.0,0.04984662576687116,0.46153846153846156,0.0034794877917704962,FE,history excl. W2 flu cluster Jan 22-28
+38,weekend,2799,180,92.0,102.0,0.06430868167202572,0.5111111111111111,0.004636600247544658,FE,history excl. W2 flu cluster Jan 22-28
+92,post_holiday,250,10,5.0,18.0,0.04,0.5,0.012393546707863733,Merch,history excl. W2 flu cluster Jan 22-28
+92,weekday,3309,112,63.0,243.0,0.033847083711090964,0.5625,0.003143657174013415,Merch,history excl. W2 flu cluster Jan 22-28
+92,weekend,1714,95,41.0,108.0,0.05542590431738623,0.43157894736842106,0.005526739574080897,Merch,history excl. W2 flu cluster Jan 22-28
+95,post_holiday,82,9,4.0,18.0,0.10975609756097561,0.4444444444444444,0.03451929411163242,Pharm,history excl. W2 flu cluster Jan 22-28
+95,weekday,999,29,14.0,228.0,0.02902902902902903,0.4827586206896552,0.005311737857022177,Pharm,history excl. W2 flu cluster Jan 22-28
+95,weekend,132,8,1.0,51.0,0.06060606060606061,0.125,0.02076801263158612,Pharm,history excl. W2 flu cluster Jan 22-28
+38,flu_cluster_W2,422,52,27.0,21.0,0.12322274881516587,0.5192307692307693,0.016000511172936372,FE,W2 flu cluster only (not used for planning; DISRUPT illness is in availability)
+95,flu_cluster_W2,84,9,5.0,18.0,0.10714285714285714,0.5555555555555556,0.03374682794725243,Pharm,W2 flu cluster only (not used for planning; DISRUPT illness is in availability)
+38,all_blocks_incl_flu,7469,454,,,0.060784576248493774,,,FE,reference only
+92,all_blocks_incl_flu,5273,217,,,0.041153043808078896,,,Merch,reference only
+95,all_blocks_incl_flu,1297,55,,,0.04240555127216654,,,Pharm,reference only
+38,MLK_Monday_only,130,6,,,0.046153846153846156,,,FE,reference only (n = 9 blocks)
+92,MLK_Monday_only,137,4,,,0.029197080291970802,,,Merch,reference only (n = 9 blocks)
+95,MLK_Monday_only,41,2,,,0.04878048780487805,,,Pharm,reference only (n = 9 blocks)

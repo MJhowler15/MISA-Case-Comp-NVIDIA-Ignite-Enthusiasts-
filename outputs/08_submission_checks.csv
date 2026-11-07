@@ -1,0 +1,13 @@
+check,expected,actual,status
+row count,567,567,PASS
+columns identical to template (names and order),team_id|scenario_id|scenario_code|store_id|dept_id|department_group|day_date|day_name|shift_code|is_open|min_staff|draft_scheduled_employees|submitted_employees,team_id|scenario_id|scenario_code|store_id|dept_id|department_group|day_date|day_name|shift_code|is_open|min_staff|draft_scheduled_employees|submitted_employees,PASS
+no blanks in submitted_employees,0,0,PASS
+integers only,567,567,PASS
+0 when closed,0,0,PASS
+>= min_staff when open,0,0,PASS
+<= capacity (regular + flex + OT) when open,0,0,PASS
+no negative values,0,0,PASS
+keys match template / planning grid,567,567,PASS
+template is_open / min_staff / draft columns unchanged,unchanged,unchanged,PASS
+INFO: total heads per scenario,info,"{'BASE': 2628, 'DISRUPT': 2523, 'PEAK': 2707}",PASS
+INFO: team_id placeholder,replace before submitting,TEAM_NAME,PASS

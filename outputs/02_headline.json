@@ -1,0 +1,62 @@
+{
+  "open_blocks": 1053,
+  "labor_cost": 1890242.255,
+  "over_blocks": 437,
+  "under_blocks": 285,
+  "right_blocks": 331,
+  "over_blocks_sched": 526,
+  "under_blocks_sched": 208,
+  "surplus_hours": 3629.5,
+  "surplus_cost": 128978.95499999999,
+  "surplus_pct_of_cost": 0.06823408727576032,
+  "deficit_hours": 2198.5,
+  "deficit_cost": 71098.95999999999,
+  "deficit_unfillable_heads": 0,
+  "net_cost_of_fix": -57879.994999999995,
+  "missed_blocks": 233,
+  "missed_understaffed": 228,
+  "missed_badluck": 5,
+  "hit_rate": 0.7787274453941121,
+  "expected_hit_rate_if_all_at_n90": 0.9700084849301882,
+  "avg_surplus_heads_over_blocks": 1.874141876430206,
+  "avg_deficit_heads_under_blocks": 1.856140350877193,
+  "deficit_coverable_by_same_wh_dept_surplus_pct": 0.6310597932796768,
+  "deficit_coverable_by_same_wh_pool_pct": 0.8727868171348778,
+  "pool_table": {
+    "W1-FE+Merch": {
+      "surplus": 30389,
+      "deficit": 16099
+    },
+    "W1-Pharm": {
+      "surplus": 4289,
+      "deficit": 2232
+    },
+    "W2-FE+Merch": {
+      "surplus": 23043,
+      "deficit": 25512
+    },
+    "W2-Pharm": {
+      "surplus": 18442,
+      "deficit": 0
+    },
+    "W4-FE+Merch": {
+      "surplus": 51668,
+      "deficit": 19533
+    },
+    "W4-Pharm": {
+      "surplus": 1148,
+      "deficit": 7723
+    }
+  },
+  "net_cost_by_wh_dept": {
+    "W1-FE": -23385.0,
+    "W1-Merch": 9095.0,
+    "W1-Pharm": -2057.0,
+    "W2-FE": 10561.0,
+    "W2-Merch": -8092.0,
+    "W2-Pharm": -18442.0,
+    "W4-FE": -5381.0,
+    "W4-Merch": -26754.0,
+    "W4-Pharm": 6576.0
+  }
+}
